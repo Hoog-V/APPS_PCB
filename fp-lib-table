@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "M12SF1")(type "KiCad")(uri "${KIPRJMOD}/lib/Minewsemi_M12SF1/M12SF1.pretty")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-libraries-3.0.0/footprints/Espressif.pretty")(options "")(descr ""))
+)

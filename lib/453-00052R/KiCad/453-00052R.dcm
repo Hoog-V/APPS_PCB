@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 453-00052R
+D 802.15.4, Bluetooth, NFC Bluetooth v5.2, NFC, Thread, Zigbee Transceiver Module 2.4GHz Integrated, Chip Surface Mount
+K
+F https://www.ezurio.com/documentation/datasheet-bl5340-series
+$ENDCMP
+#
+#End Doc Library

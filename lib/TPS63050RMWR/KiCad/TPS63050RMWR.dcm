@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS63050RMWR
+D TPS6305x Single Inductor Buck-Boost with 1-A Switches and Adjustable Soft Start
+K
+F http://www.ti.com/lit/gpn/tps63050
+$ENDCMP
+#
+#End Doc Library

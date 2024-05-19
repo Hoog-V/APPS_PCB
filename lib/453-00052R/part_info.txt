@@ -1,0 +1,9 @@
+Manufacturer=EZURIO
+PartNumber=453-00052R
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=75
+Version=1.6
+Released=2024-04-03 12:43:27
+Downloaded=2024-04-25 11:20:07
+3D=Y
