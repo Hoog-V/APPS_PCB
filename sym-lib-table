@@ -14,4 +14,6 @@
   (lib (name "M12SF1")(type "KiCad")(uri "${KIPRJMOD}/lib/Minewsemi_M12SF1/M12SF1.kicad_sym")(options "")(descr ""))
   (lib (name "MAX98357AETE+T")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX98357AETE+T/KiCad/MAX98357AETE+T.kicad_sym")(options "")(descr ""))
   (lib (name "GSB1C411111DS1HR")(type "KiCad")(uri "${KIPRJMOD}/lib/type_c_con/GSB1C411111DS1HR.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66100QDCKRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/LM66100QDCKRQ1/KiCad/LM66100QDCKRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2113ADRBR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2113ADRBR/KiCad/TPS2113ADRBR.kicad_sym")(options "")(descr ""))
 )
