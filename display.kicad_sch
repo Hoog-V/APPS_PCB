@@ -3487,6 +3487,10 @@
 		(uuid "1a8ae8e8-d1db-4344-844e-e3ec6ad1041a")
 	)
 	(no_connect
+		(at 100.33 49.53)
+		(uuid "1f4a18d0-208a-457a-b8b3-2fb1c939cdff")
+	)
+	(no_connect
 		(at 215.9 39.37)
 		(uuid "3adf5ab0-f42f-444e-b713-4f4f3aa46672")
 	)
@@ -3998,13 +4002,13 @@
 	)
 	(hierarchical_label "SPI_CLK"
 		(shape input)
-		(at 113.03 44.45 0)
+		(at 100.33 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "1dbdfbf8-809a-42d7-912d-f419cf12c873")
 	)
@@ -4046,7 +4050,7 @@
 	)
 	(hierarchical_label "SPI_MOSI"
 		(shape input)
-		(at 100.33 46.99 180)
+		(at 100.33 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4128,18 +4132,6 @@
 		)
 		(uuid "98f2ca07-27f6-4bf5-a395-621da8d84c89")
 	)
-	(hierarchical_label "SPI_MISO"
-		(shape input)
-		(at 100.33 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99eb8b9c-caa4-448c-8513-f44ac466a4f8")
-	)
 	(hierarchical_label "Display_TP_IRQ"
 		(shape input)
 		(at 173.99 81.28 0)
@@ -4154,13 +4146,13 @@
 	)
 	(hierarchical_label "Display_DC"
 		(shape input)
-		(at 100.33 49.53 180)
+		(at 113.03 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c8d35cd8-679c-47e2-835b-89d86f3f55fa")
 	)
