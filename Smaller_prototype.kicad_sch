@@ -739,6 +739,12 @@
 		(uuid "6d0a15bb-a0e6-44d3-966d-692b8f72d91c")
 	)
 	(junction
+		(at 36.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a0f15b5-d812-49fe-96f0-6dd413afed59")
+	)
+	(junction
 		(at 31.75 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1424,7 +1430,7 @@
 	)
 	(global_label "SW3"
 		(shape input)
-		(at 36.83 105.41 0)
+		(at 44.45 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1434,7 +1440,7 @@
 		)
 		(uuid "a7353a2b-5357-4f34-b916-509fec16084c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.6856 105.41 0)
+			(at 51.3056 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,6 +1648,28 @@
 			)
 		)
 	)
+	(global_label "Power_latching_circuit"
+		(shape input)
+		(at 36.83 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2ad818d-a66d-4a97-bc79-a26ea1617e37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.1027 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW5"
 		(shape input)
 		(at 33.02 162.56 0)
@@ -1793,6 +1821,76 @@
 			(project "Smaller_prototype"
 				(path "/9afce839-94a1-420a-b951-50ad17fc2524"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a86f9cc-69c7-49b5-9162-b5d4d6b2a6bb")
+		(property "Reference" "R36"
+			(at 39.37 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DNP"
+			(at 39.37 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 38.608 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0bbaaba-71ee-4d55-82e8-b9df9252a435")
+		)
+		(pin "2"
+			(uuid "3a36c542-f163-4415-97d7-063ad1cda8a6")
+		)
+		(instances
+			(project "Smaller_prototype"
+				(path "/9afce839-94a1-420a-b951-50ad17fc2524"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -2193,6 +2291,74 @@
 			(project "Smaller_prototype"
 				(path "/9afce839-94a1-420a-b951-50ad17fc2524"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5fde09-58f6-4f50-a9be-6f69017b7e1a")
+		(property "Reference" "R35"
+			(at 40.64 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 40.64 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 40.64 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2a417c9-5fad-4089-b7d1-393fa297b92b")
+		)
+		(pin "2"
+			(uuid "112d2de7-8a8b-49bd-8cb4-f03dfd5b1c11")
+		)
+		(instances
+			(project "Smaller_prototype"
+				(path "/9afce839-94a1-420a-b951-50ad17fc2524"
+					(reference "R35")
 					(unit 1)
 				)
 			)

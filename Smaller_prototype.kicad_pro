@@ -180,7 +180,9 @@
       ],
       "track_widths": [
         0.0,
-        0.5
+        0.35,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -484,7 +486,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Smaller_prototype.step",
       "svg": "",
       "vrml": ""
     },
@@ -599,7 +601,7 @@
   "sheets": [
     [
       "9afce839-94a1-420a-b951-50ad17fc2524",
-      "Hoofdblad"
+      "Root"
     ],
     [
       "5d8b4f56-3e28-4b69-8c98-19b38385b9d8",

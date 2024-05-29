@@ -16,4 +16,6 @@
   (lib (name "GSB1C411111DS1HR")(type "KiCad")(uri "${KIPRJMOD}/lib/type_c_con/GSB1C411111DS1HR.kicad_sym")(options "")(descr ""))
   (lib (name "LM66100QDCKRQ1")(type "KiCad")(uri "${KIPRJMOD}/lib/LM66100QDCKRQ1/KiCad/LM66100QDCKRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "TPS2113ADRBR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2113ADRBR/KiCad/TPS2113ADRBR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2121RUXR/KiCad/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2115ADRBT")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS2115ADRBT/KiCad/TPS2115ADRBT.kicad_sym")(options "")(descr ""))
 )
