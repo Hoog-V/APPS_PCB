@@ -1098,6 +1098,28 @@
 			)
 		)
 	)
+	(global_label "SPI_MISO"
+		(shape input)
+		(at 134.62 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bd52029-b84c-4f1b-b4b3-8ba8c620503f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.9867 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_WS"
 		(shape input)
 		(at 161.29 83.82 0)
@@ -1710,6 +1732,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MISO"
+		(shape output)
+		(at 250.19 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8c7bf81-45d6-4698-92c1-dfe1dd2cc4a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.8233 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4247,6 +4291,16 @@
 			)
 			(uuid "e551bebe-132a-4041-976c-42644b06ad74")
 		)
+		(pin "SPI_MISO" output
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9315d77c-29c1-4c5d-9f03-417f1fc709fe")
+		)
 		(instances
 			(project "Testapparaat"
 				(path "/04007555-4aeb-4052-b7ef-dcb25ca95f1e"
@@ -4606,6 +4660,16 @@
 				(justify left)
 			)
 			(uuid "ca9236f5-5e9e-402f-abb2-fbe07f2ced62")
+		)
+		(pin "SPI0_MISO" input
+			(at 134.62 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "777e83b8-afad-4ec6-b377-17e22232cb38")
 		)
 		(instances
 			(project "Testapparaat"
